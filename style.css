@@ -1,3 +1,54 @@
-p{color: deeppink;}
+body {margin: 0;
+background-color: #1d2951  ;}
 .wp-block-table {border-style: solid; }
-p{font-size: 20px;}
+
+.wp-block-table {border-style: dashed; }
+
+
+
+p
+{font-size: 20px; font-family: 'Trebuchet MS',sans-serif;
+margin-right: 1em; margin-left: 1em;}
+h1 {color:#a9a9a9;
+font-family:Bahnschrift,sans-serif ;
+}
+
+
+
+/* menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1d2951;
+    padding: 10px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.menu ul li {
+    margin-left: 10px;
+}
+
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 5px;
+}
+
+.menu ul li a:hover {
+    color:#ebeb14;
+}
+/* einde menu */
+
+.div1
+{ background-color: orangered; margin-left: 20px; margin-right: 20px;
+width: 20%; display: flex; }
